@@ -1,0 +1,11 @@
+<!--/* Header Component for Peters Site 
+  
+*/-->
+
+<header class="wknd-header">
+    <div class="container">
+        <a class="wknd-header-logo" href="${properties.rootPath || currentStyle.rootPath @ extension='html'}">Peters</a>
+        <div class="cmp-search--header" data-sly-resource="${'search' @ resourceType='peters/components/structure/search'}"></div>
+        <div class="cmp-navigation--header" id="header-navbar" data-sly-resource="${'navigation' @ resourceType='peters/components/structure/navigation'}"></div>    
+    </div>
+</header>
